@@ -695,7 +695,6 @@ background-color: #404BBF;}
         padding-top: 16px;
             gap: 8px;
             width: 360px;
-            height: 336px;
 }
 
 .contact-form-input{
@@ -705,17 +704,16 @@ background-color: #404BBF;}
     height: 40px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
-    padding-left: 38px;
 
 }
 
 .contact-form-input:focus{
     outline: none;
-    border-color: aqua;
+    border-color: rgb(77, 90, 229);
 }
 
 .contact-form-input:focus+.svg-persona{
-    fill: brown;
+    fill: #4D5AE5;
 }
 
 .contact-form-input-wrapper{
@@ -729,20 +727,18 @@ background-color: #404BBF;}
         font-style: normal;
         font-weight: 400;
     font-size: 12px;
-    margin-bottom: 10px;
+    margin-bottom: 4px;
     line-height: 14px;
-    color: #404BBF;
+    
 }
 
 .contact-form-message{
-    display: block;
 width: 100%;
 height: 100px;
 resize: none;
 padding: 10px;
 line-height: 1.4;
-border: 1px solid #404BBF;
-transition: border-color:#ffffff;
+border: 1px solid rgba(46, 47, 66, 0.4);
 
 }
 
@@ -752,6 +748,7 @@ transition: border-color:#ffffff;
 
 .contact-form-message:focus{
     outline: none;
+    border-color:rgb(77, 90, 229); 
 
 }
 
@@ -763,11 +760,36 @@ justify-content: center;
 
 }
 
+.contact-form-checkbox{
+    appearance: none;
+    position: absolute;
+}
+
+.contact-form-own-chekbox{
+    border-radius: 2px;
+    padding: 3px;
+    cursor: pointer;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+        border-radius: 2px;
+}
+
+.contact-form-checkmark-icon{
+    opacity: 0;
+}
+
+.contact-form-checkbox-wrapper{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+
+.contact-form-checkbox:checked+.contact-form-own-chekbox>.contact-form-checkmark-icon{
+    opacity: 1;
+}
+
 .contact-form-field-wrapper,
 .contact-form-chekbox-wrapper{
     display: block;
-    margin-bottom: 20px;
-
 }
 
 .svg-persona{
