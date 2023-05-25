@@ -783,7 +783,7 @@ justify-content: center;
     font-size: 13px;
 }
 
-.contact-form-checkbox:checked+.contact-form-own-chekbox>.contact-form-checkmark-icon{
+.contact-form-checkbox:checked+ .contact-form-own-chekbox>.contact-form-checkmark-icon{
     opacity: 1;
 }
 
