@@ -452,20 +452,26 @@ margin-left: 80px;
 
 .button-subscribe{
     width: 165px;
-        height: 40px;
-            
-            border: none;
-            border-radius: 4px;
-            color: #FFFFFF;
-            background-color: #4D5AE5;
-            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        }
+    height: 40px;    
+    border: none;
+    border-radius: 4px;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
+
+    .qwert{
+        display: flex;
+
+        justify-content: space-between;
+    }
+.qaz{
+    
+}
 
 .contact-form-footer-input{
-    
+    padding: 16px;
     width: 264px;
     height: 40px;
-    left: 16px;
     border: 1px solid #FFFFFF;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
