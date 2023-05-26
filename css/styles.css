@@ -488,7 +488,7 @@ margin-right: 24px;
     letter-spacing: 0.04em;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
-    background-color:#2E2F42;
+    background-color:rgb(46, 47, 66);
     color:#FFFFFF;
     
 }
@@ -886,12 +886,12 @@ justify-content: center;
 .contact-form-text-main{
     font-family: 'Roboto',sans-serif;
         font-style: normal;
-        
         font-weight: 500;
         font-size: 16px;
-        
+        line-height: 1.5;
         text-align: center;
-            letter-spacing: 0.02em;
+        letter-spacing: 0.02em;
+        
         color: #2E2F42;
 }
     
