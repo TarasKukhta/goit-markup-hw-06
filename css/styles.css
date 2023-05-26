@@ -451,6 +451,8 @@ margin-right: 24px;
 }
 
 .button-subscribe{
+    font-weight: 500;
+    line-height: 1.5;
     width: 165px;
     height: 40px;    
     border: none;
@@ -463,10 +465,14 @@ margin-right: 24px;
     .form-subscribe-input{
         display: flex;
     }
+.icon-frame{
+    margin-left: 16px;
+}
 
 .button-subscribe-footer{
     display: flex;
-    gap: 16px;
+    justify-content: center;
+    min-width: 165px;
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;  
@@ -477,6 +483,9 @@ margin-right: 24px;
     width: 264px;
     height: 40px;
     border: 1px solid #FFFFFF;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     background-color:#2E2F42;
