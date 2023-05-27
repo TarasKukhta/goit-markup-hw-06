@@ -789,13 +789,7 @@ background-color: #404BBF;}
 }
 
 .contact-form-field-desc{
-    display: block;
-    font-family: 'Roboto',sans-serif;
-        font-style: normal;
-        font-weight: 400;
-    font-size: 12px;
-    margin-bottom: 4px;
-    line-height: 14px;
+    
     
 }
 
@@ -824,6 +818,13 @@ border: 1px solid rgba(46, 47, 66, 0.4);
 justify-content: center;
 }
 .contact-form-field-wrapper{
+    display: block;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 4px;
+    line-height: 14px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color:var(--color-lable-modal);
