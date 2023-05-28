@@ -754,9 +754,12 @@ background-color: #404BBF;}
     position: absolute;
         flex-direction: column;
         border-radius: 4px;
-        padding-top: 16px;
             gap: 8px;
             width: 360px;
+}
+
+.label-contact{
+    
 }
 
 .label-contact-message{
@@ -922,11 +925,13 @@ justify-content: center;
         line-height: 1.5;
         letter-spacing: 0.04em;
         padding: 16px 32px;
+        border: none;
         gap: 10px;
         color: #ffffff;
         background: #4D5AE5;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
