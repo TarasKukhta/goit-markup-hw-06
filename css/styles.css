@@ -759,8 +759,8 @@ background-color: #404BBF;}
             width: 360px;
 }
 
-.label-contact{
-    /*margin-bottom: 8px;*/
+.label-contact-message{
+margin-bottom: 16px;
 }
 
 .contact-form-input{
