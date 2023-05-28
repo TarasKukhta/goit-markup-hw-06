@@ -864,10 +864,8 @@ justify-content: center;
 }
 
 .contact-form-own-chekbox{
-    
-    padding: 3px;
     cursor: pointer;
-    margin-right: 8px;
+    
 }
 
 .contact-form-checkmark-icon{
@@ -879,8 +877,6 @@ justify-content: center;
 }
 
 .contact-form-checkbox-wrapper{
-    display: flex;
-    align-items: center;
     font-size: 13px;
     font-size: 12px;
     line-height: 1.17;
