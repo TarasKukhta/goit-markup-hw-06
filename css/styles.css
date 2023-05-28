@@ -536,17 +536,16 @@ display: inline-block;}
 }
 
 .modal-window{
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     position: absolute;
+    width: 408px;
+    min-height: 576px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(1) rotate(1turn);
-    width: 408px;
-    min-height: 576px;
-    height: 584px;
     padding: 72px 24px 24px 24px;
     background-color: rgb(252, 252, 252);
     border-radius: 4px;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 1px 3px rgba(0, 0, 0, 0.12),
         0px 2px 1px rgba(0, 0, 0, 0.2);;
@@ -750,16 +749,16 @@ background-color: #404BBF;}
 
 
 .contact-form{
-    display: flex;
+   /* display: flex;
     position: absolute;
         flex-direction: column;
         border-radius: 4px;
             gap: 8px;
-            width: 360px;
+            width: 360px;*/
 }
 
 .label-contact{
-    
+margin-bottom: 8px;
 }
 
 .label-contact-message{
@@ -801,19 +800,18 @@ margin-bottom: 16px;
 }
 
 .contact-form-message{
-    padding: 8px 16px;
 width: 100%;
 height: 120px;
-resize: none;
-padding: 10px;
 font-size: 12px;
 line-height: 1.17;
 letter-spacing: 0.04em;
 border-radius: 4px;
 outline: transparent;
 resize: none;
+padding: 8px 16px;
 border: 1px solid rgba(46, 47, 66, 0.2);
 color: rgba(46, 47, 66, 0.4);
+background-color: transparent;
 transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
@@ -864,7 +862,7 @@ justify-content: center;
 }
 
 .contact-form-own-chekbox{
-    border-radius: 2px;
+    
     padding: 3px;
     cursor: pointer;
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -896,7 +894,7 @@ justify-content: center;
 
 .contact-form-field-wrapper,
 .contact-form-chekbox-wrapper{
-    display: block;
+    /*display: block;*/
 }
 
 .svg-persona{
@@ -914,8 +912,8 @@ justify-content: center;
 
 .contact-form-btn{
     display: block;
-        flex-direction: row;
-        align-items: flex-start;
+    margin-left: auto;
+    margin-right: auto;
         cursor: pointer;
         min-width: 169px;
         height: 56px;
