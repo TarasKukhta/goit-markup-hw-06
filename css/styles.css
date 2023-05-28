@@ -491,6 +491,7 @@ margin-right: 24px;
     border-radius: 4px;
     background-color:rgb(46, 47, 66);
     color:#FFFFFF;
+    background-color: transparent;
     
 }
 
@@ -777,6 +778,7 @@ margin-bottom: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: transparent;
 
 }
 
@@ -865,12 +867,10 @@ justify-content: center;
     
     padding: 3px;
     cursor: pointer;
-    border: 1px solid rgba(46, 47, 66, 0.4);
     margin-right: 8px;
 }
 
 .contact-form-checkmark-icon{
-    opacity: 0;
 }
 
 .contact-privacy{
@@ -888,8 +888,11 @@ justify-content: center;
     color: #8e8f99;
 }
 
-.contact-form-checkbox:checked+ .contact-form-own-chekbox>.contact-form-checkmark-icon{
-    opacity: 1;
+.contact-form-checkbox:checked + .contact-form-checkbox-wrapper .icon-checkbox {
+   border: none;
+    background-color:#404bbf;
+    fill:#ffffff;
+    border-color:#404bbf;
 }
 
 .contact-form-field-wrapper,
